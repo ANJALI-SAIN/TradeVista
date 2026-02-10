@@ -1,8 +1,8 @@
-TradeVista
+#TradeVista
 
 A modern stock trading dashboard inspired by real-world brokerage platforms, focused on scalable frontend architecture, clean UX, and production-ready patterns.
 
-Features
+#Features
 
 User authentication (JWT-based)
 
@@ -20,7 +20,7 @@ Centralized error handling
 
 Tech Stack
 
-Frontend
+#Frontend
 
 React.js
 
@@ -30,7 +30,7 @@ HTML5, CSS3
 
 Chart.js / Recharts
 
-Backend (Planned / Implemented)
+#Backend (Planned / Implemented)
 
 Node.js
 
@@ -40,7 +40,7 @@ MongoDB
 
 JWT Authentication
 
-Tools
+#Tools
 
 Git & GitHub
 
@@ -48,7 +48,7 @@ Postman
 
 VS Code
 
-System Design (High Level)
+#System Design (High Level)
 Client (React)
    |
    |  HTTPS (REST APIs)
@@ -59,12 +59,12 @@ Server (Node + Express)
    v
 MongoDB Database
 
-Auth Flow
+#Auth Flow
 
 User → Login → JWT Issued → Stored in Client
 → Protected APIs → Token Verified → Response
 
-API Routes (Sample)
+#API Routes (Sample)
 POST   /api/auth/register   → Register user
 POST   /api/auth/login      → Login user
 GET    /api/stocks          → Fetch stock list
